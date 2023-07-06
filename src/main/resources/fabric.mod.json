@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "twitch-chat-mod",
+  "version": "${version}",
+  "name": "Twitch chat mod",
+  "description": "Adds in-game twitch chat. Join chat with /twitch [channel], leave with /twitch.",
+  "authors": [ "maxthetomas" ],
+  "contact": { },
+  "environment": "client",
+  "mixins": [
+    "TimerMod.mixins.json"
+  ],
+  "entrypoints": {
+    "client": [
+      "ru.maxthetomas.twitchchat.TwitchChatMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14",
+    "fabric": "*",
+    "minecraft": ">=1.19"
+  }
+}

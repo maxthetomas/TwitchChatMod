@@ -1,0 +1,7 @@
+{
+  "twitchmod.joined": "[TWITCH] You've joined %s's chat!",
+  "twitchmod.left": "[TWITCH] You've left the chat!",
+  "twitchmod.title.config": "SET UP TWITCH!",
+  "twitchmod.title.oauth": "Get oauth token",
+  "twitchmod.tooltip.errored": "Cannot open file with a default editor! Edit .minecraft/config/twitch-irc.json!"
+}
